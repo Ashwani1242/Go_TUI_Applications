@@ -41,7 +41,7 @@ type Weather struct {
 func main() {
 	city := "Lucknow"
 	name := "Ashwani"
-	apiKey := "40d31cxxxxxxxxxxxxxxxx11240504"  // Replace this with a 
+	apiKey := "40d31cxxxxxxxxxxxxxxxx11240504"  // Replace this with a valid API key.
 
 	if len(os.Args) >= 2 {
 		city = os.Args[1]
