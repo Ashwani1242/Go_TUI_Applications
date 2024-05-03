@@ -52,7 +52,7 @@ func main() {
 
 	fmt.Printf("Hello %s\n", FgMagenta(name, "!"))
 
-	res, err := http.Get("http://api.weatherapi.com/v1/forecast.json?key=" + apiKey + "&q=" + city + "&days=1&")
+	res, err := http.Get("http://api.weatherapi.com/v1/forecast.json?key=" + apiKey + "&q=" + city + "&days=1&")  // Weather API URL
 
 	if err != nil {
 		panic(err)
